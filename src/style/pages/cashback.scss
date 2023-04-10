@@ -1,0 +1,60 @@
+
+
+.cashback{
+    height: 505px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-bottom: 60px;
+
+
+    .content {
+        position: absolute;
+        z-index: 3;
+        top: 180px;
+        left: 160px;
+      }
+      h3 {
+        font-size: 40px;
+        line-height: 55px;
+        font-family: "TT Firs Neue Trl DemiBold";
+      }
+      p {
+        color: #000000;
+        letter-spacing: 0.2px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+        margin-bottom: 90px;
+        font: 16px/1.6 "r", Arial, sans-serif;
+      }
+
+    .leftside{
+        width: 50%;
+        height: 100%;
+        background-color: #ffc628;
+
+    }
+
+    .rightside{
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+    }
+    .leftside::after {
+        width: 26%;
+        height: 100%;
+        position: absolute;
+        left: 35%;
+        top: 0px;
+        transform: skew(-12.7deg, 0);
+        background: #ffc628;
+        display: block;
+        content: "";
+      }
+}

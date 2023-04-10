@@ -1,0 +1,30 @@
+
+
+.birthdaynews {
+    position: relative;
+    top: 140px;
+    margin-bottom: 300px;
+    span {
+      display: flex;
+      justify-content: center;
+      font: 18px/1 "m", Arial, sans-serif;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-top: 40px;
+      margin-bottom: 5px;
+      font-size: 54px;
+      font-family: "TT Firs Neue Trl Regular";
+      text-align: center;
+    }
+
+    .content{
+        margin-top: 40px;
+    p {
+        margin: 20px;
+        font: 16px/1 "m", Arial, sans-serif;
+        color: rgba(0, 0, 0, 0.5);
+        line-height: 30px;
+      }
+    }
+} 

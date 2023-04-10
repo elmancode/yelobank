@@ -1,0 +1,28 @@
+
+// fonts
+@import "../fonts/style.css";
+
+// global scss
+@import "./base/index.scss";
+
+// components
+@import "./components/header.scss";
+@import "./components/CardNews.scss";
+@import "./components/footer.scss";
+@import "./components/button.scss";
+
+// page
+@import "./pages/home.scss";
+@import "./pages/news.scss";
+@import"./pages/awardNews.scss";
+@import "./pages/menu.scss";
+@import "./pages/credits.scss";
+@import "./pages/cards.scss";
+@import "./pages/deposit.scss";
+@import "./pages/allnews.scss";
+@import "./pages/cashback.scss";
+@import "./pages/birthdayNews.scss";
+@import "./pages/onlinecredit.scss"
+
+
+
